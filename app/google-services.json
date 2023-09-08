@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358438017678",
+    "project_id": "lecturas-fe182",
+    "storage_bucket": "lecturas-fe182.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358438017678:android:a215d123383514fce6c7df",
+        "android_client_info": {
+          "package_name": "com.rick.lecturas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358438017678-d9uo6c2o48f0oi8a1sr59e68v3danvb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyF_PCtwWXn6656ks_mUqIpO_f435xaGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358438017678-d9uo6c2o48f0oi8a1sr59e68v3danvb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

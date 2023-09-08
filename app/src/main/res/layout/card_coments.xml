@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    app:cardCornerRadius="0dp"
+    android:animateLayoutChanges="true"
+    android:layout_margin="5dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple_900"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/relative"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fotocardcoment"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/j" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginEnd="45dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/fotocardcoment"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/usuariocardcoment"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="usuario"
+                        android:textColor="@color/green_A200"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/titulocardcoment"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="Título"
+                        android:textColor="@color/purple_100"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/purple_750"
+                        android:orientation="vertical"></TextView>
+
+                    <TextView
+                        android:id="@+id/autorcardcoment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Autor"
+                        android:textColor="@color/purple_100"
+                        android:textSize="14dp" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarCom"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:clickable="false"
+                        android:isIndicator="true"
+                        android:progressTint="@color/yellow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/comentariocard"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Genero"
+                            android:textSize="12dp" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="17dp" />
+
+                    <ImageButton
+                        android:id="@+id/addPropioButton"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:visibility="gone"
+                        android:background="@drawable/round_buttons"
+                        app:srcCompat="@drawable/baseline_favorite_24" />
+
+                </LinearLayout>
+
+
+                <ImageButton
+                    android:id="@+id/infoButtoncom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:visibility="gone"
+                    android:background="@drawable/round_buttons"
+                    android:backgroundTint="@color/purple_750"
+                    android:src="@drawable/baseline_info_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:background="@color/purple_750"
+                android:orientation="vertical"></TextView>
+
+
+
+
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

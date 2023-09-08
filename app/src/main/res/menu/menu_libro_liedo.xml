@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/leido"
+        android:orderInCategory="100"
+        android:title="Leído"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/leyendo"
+        android:orderInCategory="100"
+        android:title="Leyendo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/quieroleer"
+        android:orderInCategory="100"
+        android:title="Quiero leer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sinterminar"
+        android:orderInCategory="100"
+        android:title="Sin terminar"
+        app:showAsAction="never" />
+</menu>
