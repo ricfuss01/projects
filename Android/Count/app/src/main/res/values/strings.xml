@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cuentas</string>
+    <string name="title_home">Cuenta</string>
+    <string name="title_dashboard">Tricount</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
