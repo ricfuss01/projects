@@ -1,0 +1,23 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/cazadordedemonios_luchas"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/demon2"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/demon3"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/demon4"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/demon5"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/demon6"
+        android:duration="200" />
+
+</animation-list>

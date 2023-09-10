@@ -1,0 +1,23 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/paladin_luchas"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/pala2"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/pala3"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/pala4"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/pala5"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/pala6"
+        android:duration="150" />
+
+</animation-list>

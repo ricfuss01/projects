@@ -1,0 +1,23 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/nigromante_luchas"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/nigro2"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/nigro3"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/nigro4"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/nigro5"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/nigro6"
+        android:duration="150" />
+
+</animation-list>

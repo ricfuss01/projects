@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/soldado_luchas"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/sold2"
+        android:duration="400" />
+</animation-list>
