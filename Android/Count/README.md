@@ -1,8 +1,9 @@
 # Count
 
-The main screen displays a number at the top, which is the target result, along with gray boxes where you must input an equation that yields that result. You have four attempts, and in each one, the correct numbers or symbols will be highlighted in green, while those placed incorrectly in a box will be highlighted in yellow. You can use the "check" button to check your answer.
+In the 'Cuenta' section, you'll find a ticket where, in the top right corner, you can enter the total amount. Using the 'Add' button, you can add individuals, specifying the amount they should contribute and the amount they've actually paid. Each person is added as a card, displaying how much they need to be reimbursed or how much they still owe.
 
-In the upper left corner, you will find an information button that opens a small popup with details about your accumulated wins and losses. The red buttons with arrows allow you to reset both the score and the game itself.
+At the bottom left, you can see how much you need to reimburse or how much you owe to the waiter or cashier. At the bottom right, you can check if the sum of everyone's contributions matches the total.
+
 
 ![1](photos_readme/Imagen1.jpg)
 ![2](photos_readme/Imagen2.jpg)
@@ -10,7 +11,8 @@ In the upper left corner, you will find an information button that opens a small
 ![4](photos_readme/Imagen4.jpg)
 ![5](photos_readme/Imagen5.jpg)
 ![6](photos_readme/Imagen6.jpg)
-space
+
+On the other hand, the 'Tricount' section is used to input how much each person has paid. The app calculates the total, divides it by the number of people, and shows how much each person owes or is owed.
 
 ![7](photos_readme/Imagen7.jpg)
 ![8](photos_readme/Imagen8.jpg)
