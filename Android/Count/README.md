@@ -9,8 +9,9 @@ In the upper left corner, you will find an information button that opens a small
 ![3](photos_readme/Imagen3.jpg)
 ![4](photos_readme/Imagen4.jpg)
 ![5](photos_readme/Imagen5.jpg)
-space
 ![6](photos_readme/Imagen6.jpg)
+space
+
 ![7](photos_readme/Imagen7.jpg)
 ![8](photos_readme/Imagen8.jpg)
 
