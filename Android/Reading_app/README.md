@@ -1,7 +1,7 @@
 # Reading app
-*Connection with a database
-*users control
-*visual graphics
+* Connection with a database
+* users control
+* visual graphics
 
 When you first open the application, the initial screen displayed is the login screen. If you wish to register, within the login screen, there is a registration option that will take you to the corresponding screen.
 
