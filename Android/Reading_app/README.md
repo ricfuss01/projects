@@ -1,5 +1,5 @@
 # Reading app
-* Connection with a database
+* Connection with database
 * users control
 * visual graphics
 
