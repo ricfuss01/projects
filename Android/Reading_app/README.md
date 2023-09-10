@@ -1,4 +1,8 @@
 # Reading app
+*Connection with a database
+*users control
+*visual graphics
+
 When you first open the application, the initial screen displayed is the login screen. If you wish to register, within the login screen, there is a registration option that will take you to the corresponding screen.
 
 Once logged in or registered, you will be redirected to the "Books" screen. On this screen, you will find a button to add books, and you will also see the "All" and "My Books" sections. Within the "My Books" section, you can select a book to add a comment about it. In the top left corner, there is a button that allows you to switch between different screens, such as "Books," "Community and Friends," and "Profile."
